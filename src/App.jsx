@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { styles } from "./style";
 import Background from "./components/Background";
 import Navbar from "./components/Navbar";
