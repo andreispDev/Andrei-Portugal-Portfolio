@@ -1,4 +1,3 @@
-import React from "react";
 import photo from "../assets/photo.jpeg";
 import { Layout, Server, Database, Terminal } from "lucide-react";
 import { IoLogoNodejs } from "react-icons/io5";
