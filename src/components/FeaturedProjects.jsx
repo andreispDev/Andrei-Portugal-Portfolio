@@ -1,4 +1,6 @@
-import { LineChart, ShieldCheck } from "lucide-react";
+import { LineChart, ShieldCheck, Database } from "lucide-react";
+import { FaGithub } from "react-icons/fa6";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
@@ -24,6 +26,17 @@ const projects = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9uKGn77b7h-KzYrVKFhG6aJnYt4yLIEcvPdvYt1lfnQ&s=10/800/450",
     tags: ["GoLang", "OAuth2", "Docker"],
+  },
+  {
+    title: "Vortex Storage Sync",
+    category: "Big Data",
+    description:
+      "High speed distributed multi-region object storage mapping system boasting intelligent asynchronous integrity validations.",
+    icon: Database,
+    iconColor: "text-gray-400",
+    gradient: "bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900",
+    image: "https://picsum.photos/seed/vortex-storage/800/450",
+    tags: ["Rust", "WASM", "SQLite"],
   },
 ];
 
@@ -110,15 +123,14 @@ function ProjectCard({ project }) {
             href="#"
             className="inline-flex items-center text-xs font-semibold text-gray-900 hover:text-orange-500"
           >
-            <i data-lucide="external-link" className="w-3.5 h-3.5 mr-1.5" />
+            <FaExternalLinkAlt className="w-3 h-3 mr-1.5" />
             Live Demo
           </a>
-
           <a
             href="#"
             className="inline-flex items-center text-xs font-semibold text-gray-500 hover:text-gray-900"
           >
-            <i data-lucide="github" className="w-3.5 h-3.5 mr-1.5" />
+            <FaGithub className="w-3.5 h-3.5 mr-1.5" />
             Repository
           </a>
         </div>
