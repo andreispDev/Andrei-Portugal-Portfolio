@@ -2,9 +2,9 @@ const workflowSteps = [
   {
     id: 1,
     phase: "01 / DISCOVER",
-    title: "Requirement Mapping",
+    title: "Requirement Planning",
     description:
-      "Deep exploration inside project targets, infrastructure realities, constraint scoping, and strict scaling requirements parameters.",
+      "Understanding project goals, user needs, technical constraints, and business requirements to establish a clear roadmap before development begins.",
     highlight: true,
   },
   {
@@ -12,7 +12,7 @@ const workflowSteps = [
     phase: "02 / DESIGN",
     title: "Architectural Layout",
     description:
-      "Structuring strict relational logic entity relationships blueprints, programmatic schema trees, and accessible high fidelity dynamic prototypes.",
+      "Designing scalable system architecture, database models, application flows, and intuitive user interfaces that prioritize usability and maintainability.",
     highlight: false,
   },
   {
@@ -20,7 +20,7 @@ const workflowSteps = [
     phase: "03 / DEVELOP",
     title: "Scalable Execution",
     description:
-      "Writing modular decoupled logic libraries accompanied by structural edge case execution suites validation parameters checking.",
+      "Building clean, modular, and maintainable code using modern technologies, with an emphasis on performance, testing, and best practices.",
     highlight: false,
   },
   {
@@ -28,7 +28,7 @@ const workflowSteps = [
     phase: "04 / DEPLOY",
     title: "Optimized Delivery",
     description:
-      "Continuous integration system profiling metrics tests, payload size minimizations, asset bundles compression, and final production pushes.",
+      "Deploying production-ready applications through continuous integration and delivery, while optimizing performance, monitoring reliability, and ensuring long-term scalability.",
     highlight: false,
   },
 ];

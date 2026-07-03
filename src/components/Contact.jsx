@@ -1,8 +1,13 @@
+import { FaLocationPin } from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
 const contactItems = [
   {
     type: "link",
     href: "mailto:alex@example.com",
-    icon: "mail",
+    icon: SiGmail,
     label: "Email Direct",
     value: "andreispdev@gmail.com",
     accent: true,
@@ -10,20 +15,20 @@ const contactItems = [
   {
     type: "link",
     href: "https://www.linkedin.com/in/andreispdev",
-    icon: "linkedin",
+    icon: FaLinkedin,
     label: "LinkedIn Professional",
     value: "in/andreispDev",
   },
   {
     type: "link",
     href: "https://github.com",
-    icon: "github",
+    icon: FaGithub,
     label: "Source Repos",
     value: "github.com/andreispDev",
   },
   {
     type: "static",
-    icon: "map-pin",
+    icon: FaLocationPin,
     label: "Location Base",
     value: "Manila, Philippines",
   },
@@ -31,7 +36,7 @@ const contactItems = [
 
 function ContactCard({ item }) {
   const Wrapper = item.type === "link" ? "a" : "div";
-
+  const Icon = item.icon;
   return (
     <Wrapper
       {...(item.type === "link"
@@ -51,15 +56,15 @@ function ContactCard({ item }) {
       {/* Icon */}
       <div
         className={`
-          w-9 h-9 rounded-lg flex items-center justify-center transition-colors
+          w-8 h-8 rounded-lg flex items-center justify-center transition-colors
           ${
             item.accent
-              ? "bg-orange-50 text-orange-500 group-hover:bg-orange-500 group-hover:text-white"
+              ? "bg-gray-100 text-red-500 group-hover:bg-gray-150 group-hover:text-red-500 duration-500"
               : "bg-gray-100 text-gray-700 group-hover:bg-gray-900 group-hover:text-white"
           }
         `}
       >
-        <i data-lucide={item.icon} className="w-4 h-4" />
+        <Icon className="w-5 h-5" />
       </div>
 
       {/* Text */}

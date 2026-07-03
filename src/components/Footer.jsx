@@ -35,9 +35,8 @@ export default function Footer() {
             </a>
 
             <p className="text-xs text-gray-400 max-w-sm leading-relaxed">
-              Enterprise engineering platform for product architectures,
-              microservices systems alignment, and sleek programmatic interfaces
-              designed to scale cleanly.
+              Developing high-performance web applications with scalable
+              architectures, maintainable code, and seamless user experiences.
             </p>
           </div>
 
@@ -69,26 +68,23 @@ export default function Footer() {
           {/* Status */}
           <div className="md:col-span-3 flex flex-col md:items-end gap-2">
             <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">
-              Status System
+              Developer Status
             </span>
 
             <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-green-50 text-green-700 text-[10px] font-semibold border border-green-100">
               <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-ping" />
-              Q3/Q4 Active Availability
+              Open to work opportunities
             </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="pt-6 border-t border-gray-50 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-gray-400">
-          <span>© 2026 Andrei Portugal. All rights reserved.</span>
+          <span>Developed by Andrei Portugal.</span>
 
           <div className="flex gap-4">
             <a href="#" className="hover:text-gray-900 transition-colors">
-              Privacy Specifications
-            </a>
-            <a href="#" className="hover:text-gray-900 transition-colors">
-              Terms of Operations
+              MIT License
             </a>
           </div>
         </div>

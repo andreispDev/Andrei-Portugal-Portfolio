@@ -9,7 +9,7 @@ import ExperienceSection from "./components/ExperienceSection";
 import FeaturedProjects from "./components/FeaturedProjects";
 import TechStackSection from "./components/TechStackSection";
 import Workerflow from "./components/Workflow";
-import Testimonials from "./components/Testimonials";
+import CurrentFocus from "./components/CurrentFocus";
 import ContactSection from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -51,7 +51,7 @@ export default function App() {
         <FeaturedProjects />
         <TechStackSection />
         <Workerflow />
-        <Testimonials />
+        <CurrentFocus />
         <ContactSection />
         <Footer />
       </div>

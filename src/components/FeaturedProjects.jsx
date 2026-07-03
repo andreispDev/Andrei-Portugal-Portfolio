@@ -1,11 +1,4 @@
-import {
-  LineChart,
-  ShieldCheck,
-  ShoppingBag,
-  Cloud,
-  Cpu,
-  Database,
-} from "lucide-react";
+import { LineChart, ShieldCheck } from "lucide-react";
 
 const projects = [
   {
@@ -31,50 +24,6 @@ const projects = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9uKGn77b7h-KzYrVKFhG6aJnYt4yLIEcvPdvYt1lfnQ&s=10/800/450",
     tags: ["GoLang", "OAuth2", "Docker"],
-  },
-  {
-    title: "Apex Commerce API",
-    category: "E-Commerce",
-    description:
-      "Headless cart processing application suite complete with web-hook triggers handling structured localized inventories.",
-    icon: ShoppingBag,
-    iconColor: "text-orange-500/80",
-    gradient: "bg-gradient-to-br from-gray-900 via-orange-950 to-gray-900",
-    image: "https://picsum.photos/seed/apex-commerce/800/450",
-    tags: ["Node.js", "Stripe", "Postgres"],
-  },
-  {
-    title: "Stratus Pipeline Monitor",
-    category: "DevOps Portal",
-    description:
-      "Telemetry dashboard plotting pipeline build intervals, metric health thresholds, and direct deployments indicators.",
-    icon: Cloud,
-    iconColor: "text-gray-400",
-    gradient: "bg-gradient-to-br from-gray-700 to-gray-900",
-    image: "https://picsum.photos/seed/stratus-pipeline/800/450",
-    tags: ["React.js", "Tailwind", "Prometheus"],
-  },
-  {
-    title: "Synapse Workflow Orchestrator",
-    category: "Automation",
-    description:
-      "A low-code background task parser scheduling complex sequential crons across disparate server networks securely.",
-    icon: Cpu,
-    iconColor: "text-orange-500/80",
-    gradient: "bg-gradient-to-br from-gray-900 to-amber-950",
-    image: "https://picsum.photos/seed/synapse-workflow/800/450",
-    tags: ["Python", "FastAPI", "RabbitMQ"],
-  },
-  {
-    title: "Vortex Storage Sync",
-    category: "Big Data",
-    description:
-      "High speed distributed multi-region object storage mapping system boasting intelligent asynchronous integrity validations.",
-    icon: Database,
-    iconColor: "text-gray-400",
-    gradient: "bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900",
-    image: "https://picsum.photos/seed/vortex-storage/800/450",
-    tags: ["Rust", "WASM", "SQLite"],
   },
 ];
 
